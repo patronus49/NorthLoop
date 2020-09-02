@@ -1,0 +1,25 @@
+{
+  "name": "northloop",
+  "version": "1.0.0",
+  "description": "Backend connecting Yahoo's finance APIs on RapidApi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Yahoo",
+    "Finance",
+    "RapiApi",
+    "NodeJS",
+    "NorthLoop"
+  ],
+  "author": "Ketan Yadav",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "memory-cache": "^0.2.0"
+  }
+}
